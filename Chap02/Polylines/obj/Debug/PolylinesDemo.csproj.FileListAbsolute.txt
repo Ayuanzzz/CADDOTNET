@@ -1,0 +1,7 @@
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\bin\Debug\Polylines.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\bin\Debug\Polylines.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\bin\Debug\DotNetArX.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\bin\Debug\DotNetArX.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\obj\Debug\PolylinesDemo.csprojResolveAssemblyReference.cache
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\obj\Debug\Polylines.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Polylines\obj\Debug\Polylines.pdb

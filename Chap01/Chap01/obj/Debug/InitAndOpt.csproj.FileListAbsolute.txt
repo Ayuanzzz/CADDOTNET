@@ -1,0 +1,29 @@
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\Chap01.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\Chap01.pdb
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\accoremgd.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\acdbmgd.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\acmgd.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AdUiPalettes.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcDx.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcDxPublishUi.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AdWindows.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcMr.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcWindows.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcTcMgd.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcCui.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\AcMNUParser.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\acdbmgd.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\AcDx.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\AcDxPublishUi.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\AdWindows.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\AcMr.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\bin\Debug\zh-CN\AcWindows.resources.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\obj\Debug\InitAndOpt.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\obj\Debug\Chap01.dll
+\\vmware-host\Shared Folders\桌面\C#\study\Chap01\Chap01\obj\Debug\Chap01.pdb
+C:\Users\10528\Desktop\C#\study\Chap01\Chap01\bin\Debug\Chap01.dll
+C:\Users\10528\Desktop\C#\study\Chap01\Chap01\bin\Debug\Chap01.pdb
+C:\Users\10528\Desktop\C#\study\Chap01\Chap01\obj\Debug\InitAndOpt.csprojResolveAssemblyReference.cache
+C:\Users\10528\Desktop\C#\study\Chap01\Chap01\obj\Debug\Chap01.dll
+C:\Users\10528\Desktop\C#\study\Chap01\Chap01\obj\Debug\Chap01.pdb

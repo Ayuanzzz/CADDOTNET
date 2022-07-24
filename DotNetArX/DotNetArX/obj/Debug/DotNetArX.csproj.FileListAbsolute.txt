@@ -1,0 +1,5 @@
+C:\Users\10528\Desktop\C#\study\DotNetArX\DotNetArX\bin\Debug\DotNetArX.dll
+C:\Users\10528\Desktop\C#\study\DotNetArX\DotNetArX\bin\Debug\DotNetArX.pdb
+C:\Users\10528\Desktop\C#\study\DotNetArX\DotNetArX\obj\Debug\DotNetArX.dll
+C:\Users\10528\Desktop\C#\study\DotNetArX\DotNetArX\obj\Debug\DotNetArX.pdb
+C:\Users\10528\Desktop\C#\study\DotNetArX\DotNetArX\obj\Debug\DotNetArX.csprojResolveAssemblyReference.cache

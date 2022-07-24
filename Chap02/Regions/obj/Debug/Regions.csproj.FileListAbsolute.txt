@@ -1,0 +1,6 @@
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\bin\Debug\Regions.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\bin\Debug\Regions.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\bin\Debug\DotNetArX.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\bin\Debug\DotNetArX.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\obj\Debug\Regions.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Regions\obj\Debug\Regions.pdb

@@ -1,0 +1,7 @@
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\bin\Debug\Chap02.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\bin\Debug\Chap02.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\bin\Debug\DotNetArX.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\bin\Debug\DotNetArX.pdb
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\obj\Debug\Chap02.csprojResolveAssemblyReference.cache
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\obj\Debug\Chap02.dll
+C:\Users\10528\Desktop\C#\study\Chap02\Chap02\obj\Debug\Chap02.pdb
