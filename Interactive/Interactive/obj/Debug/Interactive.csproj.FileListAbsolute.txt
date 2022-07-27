@@ -1,6 +1,0 @@
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\bin\Debug\Interactive.dll
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\bin\Debug\Interactive.pdb
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\bin\Debug\DotNetArX.dll
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\bin\Debug\DotNetArX.pdb
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\obj\Debug\Interactive.dll
-C:\Users\10528\Desktop\C#\study\Interactive\Interactive\obj\Debug\Interactive.pdb

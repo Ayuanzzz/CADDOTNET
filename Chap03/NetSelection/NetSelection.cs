@@ -48,7 +48,7 @@ namespace NetSelection
             //第二次选则
             PromptSelectionResult ss2 = ed.GetSelection();
             if (ss2.Status != PromptStatus.OK) return;
-            Application.ShowAlertDialog("第二个选择集中实体的数量：" + ss1.Value.Count.ToString());
+            Application.ShowAlertDialog("第二个选择集中实体的数量：" + ss2.Value.Count.ToString());
             //合并选择集
             var ss3 = ss1.Value.GetObjectIds().Union(ss2.Value.GetObjectIds());
             Application.ShowAlertDialog("合并后选择集中实体的数量:" + ss3.Count().ToString());
@@ -99,6 +99,39 @@ namespace NetSelection
             if (psr.Status == PromptStatus.OK)
             {
                 Application.ShowAlertDialog("选择集中实体的数量:" + psr.Value.Count.ToString());
+            }
+        }
+        //以多边形为边界选择
+        [CommandMethod("TestPolygonSelect")]
+        public static void TestPolygonSelect()
+        {
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Editor ed = doc.Editor;
+            //声明一个Point3d类集合，用于存储多段线的顶点
+            Point3dCollection pts = new Point3dCollection();
+            //提示用户选择多段线
+            PromptEntityResult per = ed.GetEntity("请选择多段线");
+            if (per.Status != PromptStatus.OK) return;//选择错误，返回
+            using(Transaction trans = doc.TransactionManager.StartTransaction())
+            {
+                //转换为Polyline对象
+                Polyline pline = trans.GetObject(per.ObjectId, OpenMode.ForRead) as Polyline;
+                if (pline != null)
+                {
+                    //遍历所选多段线的顶点并添加到Point3d类列表
+                    for(int i = 0; i < pline.NumberOfVertices; i++)
+                    {
+                        Point3d point = pline.GetPoint3dAt(i);
+                        pts.Add(point);
+                    }
+                    //窗口选择，仅选择完全位于多边形区域中的对象
+                    PromptSelectionResult psr = ed.SelectWindowPolygon(pts);
+                    if (psr.Status == PromptStatus.OK)
+                    {
+                        Application.ShowAlertDialog("选择集中实体的数量:" + psr.Value.Count.ToString());
+                    }
+                }
+                trans.Commit();
             }
         }
     }
