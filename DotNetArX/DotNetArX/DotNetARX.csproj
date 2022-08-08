@@ -61,6 +61,7 @@
     <Compile Include="GeTools.cs" />
     <Compile Include="LayerTools.cs" />
     <Compile Include="LinqToCAD.cs" />
+    <Compile Include="PointTools.cs" />
     <Compile Include="SelectionTools.cs" />
     <Compile Include="TextStyleTools.cs" />
     <Compile Include="TypedValueList.cs" />
