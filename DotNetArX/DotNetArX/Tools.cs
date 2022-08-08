@@ -158,5 +158,15 @@ namespace DotNetArX
             }
             return blocks; //返回块参照列表
         }
+
+        /// <summary>
+        /// 获取当前.NET程序所在的目录
+        /// </summary>
+        /// <returns>返回当前.NET程序所在的目录</returns>
+        public static string GetCurrentPath()
+        {
+            var moudle = System.Reflection.Assembly.GetExecutingAssembly().GetModules()[0];
+            return System.IO.Path.GetDirectoryName(moudle.FullyQualifiedName);
+        }
     }
 }

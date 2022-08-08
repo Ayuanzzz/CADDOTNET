@@ -34,6 +34,10 @@
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\accoremgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="AcCui">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\AcCui.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="acdbmgd">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2016\acdbmgd.dll</HintPath>
       <Private>False</Private>
@@ -56,6 +60,7 @@
     <Compile Include="BlockTools.cs" />
     <Compile Include="CircleTools.cs" />
     <Compile Include="CommandTools.cs" />
+    <Compile Include="CUITools.cs" />
     <Compile Include="DictTools.cs" />
     <Compile Include="EntTools.cs" />
     <Compile Include="GeTools.cs" />
