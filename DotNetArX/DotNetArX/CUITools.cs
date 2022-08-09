@@ -16,7 +16,7 @@ namespace DotNetArX
         public static CustomizationSection GetMainCustomizationSection(this Document doc)
         {
             //获得主CUI文件所在的位置
-            string mainCuiFile = Application.GetSystemVariable("MENUNAME") + ".cui";
+            string mainCuiFile = Application.GetSystemVariable("MENUNAME") + ".cuix";
             //打开主CUI文件
             return new CustomizationSection(mainCuiFile);
         }
@@ -49,7 +49,9 @@ namespace DotNetArX
             CustomizationSection mainCs = doc.GetMainCustomizationSection();
             //如果已存在局部CUI文件，则先卸载
             if (mainCs.PartialCuiFiles.Contains(cs.CUIFileName))
-                doc.SendStringToExecute("_.cuiunload " + cs.CUIFileName + " ", false, false, false);
+                doc.SendStringToExecute("_.cuiunload " + cs.CUIFileBaseName + " ", false, false, false);
+            //装载CUI文件
+            doc.SendStringToExecute("_.cuiload " + cs.CUIFileName + " ", false, false, false);
             //恢复CMDECHO和FILEDIA系统变量的初始值
             doc.SendStringToExecute("(setvar \"FILEDIA\" " + oldFileDia.ToString() + ")(princ) ", false, false, false);
             doc.SendStringToExecute("(setvar \"CMDECHO\" " + oldCmdEcho.ToString() + ")(princ) ", false, false, false);
@@ -108,11 +110,19 @@ namespace DotNetArX
             }
             return tb;
         }
-        //向工具栏添加按钮
-        public static ToolbarButton AddTobarButton(this Toolbar parent,int index,string name,string macroId)
+        /// <summary>
+        /// 向工具栏添加按钮
+        /// </summary>
+        /// <param name="parent">按钮所属的工具栏</param>
+        /// <param name="index">按钮在工具栏上的位置</param>
+        /// <param name="name">按钮的显示名称</param>
+        /// <param name="macroId">按钮的命令宏的Id</param>
+        /// <returns>返回工具栏按钮对象</returns>
+        public static ToolbarButton AddToolbarButton(this Toolbar parent, int index, string name, string macroId)
         {
+            //创建一个工具栏按钮对象，指定其命令宏Id、显示名称、所属的工具栏和位置
             ToolbarButton button = new ToolbarButton(macroId, name, parent, index);
-            return button;
+            return button;//返回工具栏按钮对象
         }
     }
 }
